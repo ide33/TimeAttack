@@ -745,8 +745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38526017c6354eb43a0f8a22f0fa787f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLabel: {fileID: 0}
-  timecount: 0
+  timeLabel: {fileID: 914872304}
+  timecount: 8
 --- !u!1 &1081959386 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100122, guid: 317a56890b5c8e74ab1d492a2c7fb608, type: 3}
@@ -791,7 +791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cefbe1976970d144589d2338836c63ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeedIn: 20
+  moveSpeedIn: 9
   maxAngularVelocity: Infinity
   smoothTime: 0.05
 --- !u!136 &1081959396
