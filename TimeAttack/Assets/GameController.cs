@@ -29,7 +29,7 @@ public class GameController : MonoBehaviour
             timeLabel.text = "TIME:" + timecount;
             if(timecount < 1)
             {
-                SceneManager.LoadScene("GameOver");
+                SceneManager.LoadScene("GameOverScene");
             }
         }
     }
