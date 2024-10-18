@@ -78,8 +78,8 @@ public class PlayerController : MonoBehaviour
         //慣性を消す
         if(Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.D))
         {
-            //playerRb.velocity = Vector3.zero;
-           // playerRb.angularVelocity = Vector3.zero;
+            playerRb.velocity = Vector3.zero;
+           playerRb.angularVelocity = Vector3.zero;
         }
 
         //------プレイヤーの回転------
@@ -116,7 +116,7 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     private void Move()
     {
-        //playerRb.AddForce(moveSpeed, ForceMode.Force);
+        playerRb.AddForce(moveSpeed, ForceMode.Force);
 
         playerRb.velocity = moveSpeed;
     }

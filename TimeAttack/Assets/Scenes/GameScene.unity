@@ -791,7 +791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cefbe1976970d144589d2338836c63ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeedIn: 9
+  moveSpeedIn: 10
   maxAngularVelocity: Infinity
   smoothTime: 0.05
 --- !u!136 &1081959396
