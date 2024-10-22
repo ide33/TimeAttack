@@ -15,7 +15,7 @@ public class StartButton : MonoBehaviour
 
     void StartGame()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("CountDownScene");
     }
     void Update()
     {

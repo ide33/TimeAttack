@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartScene.unity
     guid: 91d18078cd5e16c4bbf6f52c95f3d4b9
+  - enabled: 1
+    path: Assets/Scenes/CountdownScene.unity
+    guid: 7908c708c8e0cb74b830230353186948
   m_configObjects: {}
